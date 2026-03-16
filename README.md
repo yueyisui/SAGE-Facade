@@ -1,36 +1,37 @@
-# FaçadeDiffusion
+# SAGE-Façade
 
-> **FaçadeDiffusion**: Building Façade Generation via Diffusion Models with Soft Semantic Guidance.  
-
-<p align="center">
-  <img src="assets/figures/fig1_overview.png" width="100%"/>
-</p>
+> **SAGE-Façade**: \textbf{S}emantic-\textbf{A}ligned \textbf{G}uidance for \textbf{E}xemplar-based Façade Synthesis.  
 
 ## 🔥 Highlights
-- **Semantic layout control**: generate façades aligned with target semantic maps.
-- **Reference-style control**: use a reference façade image (and its semantic map) to transfer appearance while respecting structure.
-- **Supports partial reference**: center-cropped reference image → complete façade generation.
-- **LoD texture projection demo**: map generated façade textures onto LoD building models.
-- **LSAA-v2 datasets**: provides 5,961 building façade images with corresponding semantic labels and text prompts.
+
+* 🚀 **A Novel Paradigm for Structured Generation:** We introduce **SAGE-Façade**, a unified diffusion-based framework that breaks the bottleneck of global style injection by achieving precise, category-level semantic-aligned soft guidance for highly structured images.
+* 🧩 **Class-Wise Feature Routing:** Through our proposed **SASE** (Structure-Aware Style Encoder) and **SASA** (Semantic-Aligned Style Adapter), the model adaptively disentangles and routes specific style priors, fundamentally eradicating cross-category "style bleeding".
+* 📐 **Anti-Aliasing Soft Downsampling:** We propose **SSD** (Soft Semantic Downsampling), transforming hard discrete labels into continuous spatial probability distributions to preserve sub-pixel physical boundaries during multi-scale diffusion perfectly.
+* 📊 **The LSAA-12K Benchmark:** We release a large-scale, meticulously refined dataset comprising ~12,000 high-quality building façades with pixel-level semantic masks, serving as a robust new benchmark for the community.
+* 🏆 **State-of-the-Art Performance:** Extensive experiments demonstrate that SAGE-Façade achieves unprecedented structural fidelity, multi-view 3D consistency, and strong zero-shot cross-dataset generalization.
 
 <p align="center">
-  <img src="assets/figures/fig2_pipeline.png" width="100%"/>
+  <img src="assets/figures/fig1_pipeline.png" width="100%"/>
 </p>
 
 ---
 
-## 🏢 LSAA-v2 Dataset
+## 🏢 LSAA-12K Dataset
 
-**LSAA-v2** provides **5,961 building façade images** with paired **semantic labels and text prompts**.
+**LSAA-12K** provides **12097 building façade images** with paired **semantic labels and text prompts**.
 
-- The **test split** of LSAA-v2 can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1PLhzE8qJrwigYaXsqC40buLZRlF5H3B6?hl=zh-cn).
-- The **train split** of LSAA-v2 is coming soon.
+- The **test split** of LSAA-12K can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1PLhzE8qJrwigYaXsqC40buLZRlF5H3B6?hl=zh-cn).
+- The **train split** of LSAA-12K is coming soon.
+
+<p align="center">
+  <img src="assets/figures/fig2_dataset.png" width="100%"/>
+</p>
 
 ---
 
 ## 📌 News
-- **2026-01-25**: Initial public repo template + paper figures.
-- **2026-01-25**: Provide the test split of LSAA-v2 dataset .
+- **2026-01-25**: Initial public repo template.
+- **2026-03-16**: Provide the test split of LSAA-12K dataset .
 
 ---
 
