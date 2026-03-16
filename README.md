@@ -1,7 +1,5 @@
-# SAGE-Façade
-
-> **SAGE-Façade**: \textbf{S}emantic-\textbf{A}ligned \textbf{G}uidance for \textbf{E}xemplar-based Façade Synthesis.  
-
+# **SAGE-Façade**: **S**emantic-**A**ligned **G**uidance for **E**xemplar-based Façade Synthesis
+This is the official PyTorch implementation of the paper **"SAGE-Façade: Semantic-Aligned Guidance for Exemplar-Based Façade Synthesis"**.
 ## 🔥 Highlights
 
 * 🚀 **A Novel Paradigm for Structured Generation:** We introduce **SAGE-Façade**, a unified diffusion-based framework that breaks the bottleneck of global style injection by achieving precise, category-level semantic-aligned soft guidance for highly structured images.
