@@ -18,8 +18,11 @@ This is the official PyTorch implementation of the paper **"SAGE-Façade: Semant
 
 **LSAA-12K** provides **12097 building façade images** with paired **semantic labels and text prompts**.
 
-- The **test split** of LSAA-12K can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1PLhzE8qJrwigYaXsqC40buLZRlF5H3B6?hl=zh-cn).
-- The **train split** of LSAA-12K is coming soon.
+- Dataset page: [LSAA-12K on Hugging Face](https://huggingface.co/datasets/yisui/LSAA-12K).
+- **Train split** (11,795 samples): [Download train.zip](https://huggingface.co/datasets/yisui/LSAA-12K/resolve/main/train.zip?download=true).
+- **Test split** (302 samples): [Download test.zip](https://huggingface.co/datasets/yisui/LSAA-12K/resolve/main/test.zip?download=true).
+
+Extract the archives to obtain the original `train/` and `test/` folders, including images, semantic labels, JSON annotations, and text prompts. See the dataset page for download instructions and SHA-256 checksums.
 
 <p align="center">
   <img src="assets/figures/fig2_dataset.png" width="100%"/>
@@ -30,6 +33,7 @@ This is the official PyTorch implementation of the paper **"SAGE-Façade: Semant
 ## 📌 News
 - **2026-01-25**: Initial public repo template.
 - **2026-03-16**: Provide the test split of LSAA-12K dataset .
+- **2026-10-02**: Release the full LSAA-12K train and test splits on [Hugging Face](https://huggingface.co/datasets/yisui/LSAA-12K).
 
 ---
 
